@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "tunables": {
-    "freePipeline": "legacy",
-    "liveBackend": "legacy",
+    "freePipeline": "edge",
+    "liveBackend": "edge",
     "vadStartMarginDb": 12,
     "vadSilenceMs": 800,
     "vadMinVoicedMs": 400,
@@ -12,6 +12,9 @@
     "graceMaxSeconds": 600,
     "maxCallsPerHourPerApp": 3,
     "freeVoiceTurnsPerDay": 8,
-    "freeTextTurnsPerDay": 20
+    "freeTextTurnsPerDay": 20,
+    "freeLiveSecondsPerCall": 60,
+    "freeLiveCallsPerDay": 1,
+    "freeLiveCallsPerMonth": 10
   }
 }
